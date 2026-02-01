@@ -13,14 +13,9 @@ title: Home
         <h1 class="hero-name">{{ site.title }}</h1>
         <p class="hero-title">{{ site.position }}</p>
         <p class="hero-affiliation">
-          <a href="https://larics.fer.hr/" target="_blank">{{ site.affiliation }}</a>
+          <a href="https://www.infineon.com/" target="_blank">{{ site.affiliation }}</a>
         </p>
         <div class="hero-social">
-          {% if site.google_scholar %}
-          <a href="{{ site.google_scholar }}" class="social-link" target="_blank" title="Google Scholar">
-            <i class="ai ai-google-scholar"></i>
-          </a>
-          {% endif %}
           {% if site.github_link %}
           <a href="{{ site.github_link }}" class="social-link" target="_blank" title="GitHub">
             <i class="fab fa-github"></i>
@@ -31,57 +26,44 @@ title: Home
             <i class="fab fa-linkedin-in"></i>
           </a>
           {% endif %}
-          {% if site.cv_link %}
-          <a href="{{ site.cv_link | relative_url }}" class="social-link" target="_blank" title="CV">
-            <i class="ai ai-cv"></i>
-          </a>
-          {% endif %}
           <a href="mailto:{{ site.email }}" class="social-link" title="Email">
             <i class="fas fa-envelope"></i>
           </a>
         </div>
         <div class="about-text">
-          <p>I am a researcher at the <a href="https://larics.fer.hr/" target="_blank">Laboratory for Robotics and Intelligent Control Systems (LARICS)</a>, FER, at the University of Zagreb, focusing on multi-robot systems for search and rescue missions. Last summer, I graduated with a Master's in <a href="https://ifrosmaster.org/" target="_blank">Intelligent Field Robotic Systems (IFRoS)</a> from the Erasmus Mundus program.</p>
-          <p>I hold an undergraduate degree in Electrical Engineering, with a focus on robotics and computer vision, from <a href="https://habib.edu.pk/" target="_blank">Habib University</a> in 2022.</p>
+          <p>I am a Backend Engineer with an MSc in Computer Science from <a href="https://www.uni-saarland.de/" target="_blank">Saarland University</a>, and I enjoy solving problems by building reliable, scalable systems.</p>
+          <p>Currently working on my Master's thesis at <a href="https://www.infineon.com/" target="_blank">Infineon Technologies</a>. Previously, I worked at <a href="https://www.anynines.com/" target="_blank">anynines</a> as a Cloud Platform Engineer, and at <a href="https://10pearls.com/" target="_blank">10Pearls</a> as a Software Engineer.</p>
         </div>
       </div>
     </div>
 
     <div class="hero-right">
       <div class="news-section">
-        <h2 class="section-title">News</h2>
+        <h2 class="section-title">Timeline</h2>
         <div class="news-list-scroll">
           <div class="news-item">
-            <span class="news-date">May 2025</span>
-            <p class="news-content">Paper "Decentralized Battery-Aware Connectivity Maintenance for Multi-UAV Missions" accepted in <strong>IEEE Access</strong>.</p>
+            <span class="news-date">Jan 2026</span>
+            <p class="news-content">Started Master's thesis at <a href="https://www.infineon.com/" target="_blank">Infineon Technologies</a>.</p>
           </div>
           <div class="news-item">
-            <span class="news-date">Feb 2025</span>
-            <p class="news-content">Started as researcher at <a href="https://larics.fer.hr/" target="_blank">LARICS</a>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jun 2024</span>
-            <p class="news-content">Completed Master's in <a href="https://ifrosmaster.org/" target="_blank">IFRoS</a>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Mar 2024</span>
-            <p class="news-content">Began thesis at LARICS on UAV network connectivity.</p>
+            <span class="news-date">Nov 2023</span>
+            <p class="news-content">Joined <a href="https://www.anynines.com/" target="_blank">anynines</a> as Cloud Platform Engineer.</p>
           </div>
           <div class="news-item">
             <span class="news-date">Oct 2023</span>
-            <p class="news-content">Joined University of Zagreb for aerial robotics specialization.</p>
+            <p class="news-content">Started MSc Computer Science at <a href="https://www.uni-saarland.de/" target="_blank">Saarland University</a>.</p>
           </div>
           <div class="news-item">
-            <span class="news-date">Dec 2022</span>
-            <p class="news-content">Presented at IEEE ROBIO 2022.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Sep 2022</span>
-            <p class="news-content">Started IFRoS Masters at University of Girona.</p>
+            <span class="news-date">Jan 2023</span>
+            <p class="news-content">Promoted to Software Engineer at <a href="https://10pearls.com/" target="_blank">10Pearls</a>.</p>
           </div>
           <div class="news-item">
             <span class="news-date">Jun 2022</span>
-            <p class="news-content">Graduated from <a href="https://habib.edu.pk/" target="_blank">Habib University</a> with Dean's Medal and Best Thesis Award.</p>
+            <p class="news-content">Graduated from <a href="https://iba.edu.pk/" target="_blank">IBA</a> and joined 10Pearls.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jun 2021</span>
+            <p class="news-content">Started as ML Engineer at Sofcom, built stock prediction models.</p>
           </div>
         </div>
       </div>
@@ -97,27 +79,35 @@ title: Home
       <div class="exp-edu-list">
         <div class="exp-edu-card">
           <div class="exp-edu-header">
-            <h3 class="exp-edu-title">Researcher</h3>
-            <span class="exp-edu-date">Feb 2025 - Present</span>
+            <h3 class="exp-edu-title">Master Thesis</h3>
+            <span class="exp-edu-date">Jan 2026 - Present</span>
           </div>
-          <p class="exp-edu-org"><a href="https://larics.fer.hr/" target="_blank">LARICS</a>, University of Zagreb</p>
-          <p class="exp-edu-desc">Research on multi-robot systems for search and rescue missions, focusing on connectivity maintenance and decentralized control for UAV swarms.</p>
+          <p class="exp-edu-org"><a href="https://www.infineon.com/" target="_blank">Infineon Technologies</a>, Neubiberg, Germany</p>
+          <p class="exp-edu-desc">Working on my Master's thesis in collaboration with Infineon Technologies.</p>
         </div>
         <div class="exp-edu-card">
           <div class="exp-edu-header">
-            <h3 class="exp-edu-title">Computer Vision Intern</h3>
-            <span class="exp-edu-date">Jun - Aug 2023</span>
+            <h3 class="exp-edu-title">Cloud Platform Engineer</h3>
+            <span class="exp-edu-date">Nov 2023 - Oct 2025</span>
           </div>
-          <p class="exp-edu-org"><a href="https://vicorob.udg.edu/" target="_blank">ViCOROB</a>, Universitat de Girona</p>
-          <p class="exp-edu-desc">Improved weakly-supervised semantic segmentation for side scan sonar images. Created GUI tools for visualization and inspection of SSS transects.</p>
+          <p class="exp-edu-org"><a href="https://www.anynines.com/" target="_blank">anynines</a>, Saarbrücken, Germany</p>
+          <p class="exp-edu-desc">Automated deployment cleanup, migrated Redis to Valkey in Go, optimized Dockerfiles with multi-stage builds, and streamlined CI/CD with Concourse. Built monitoring portal integrating Prometheus, Alertmanager, and Graphite.</p>
         </div>
         <div class="exp-edu-card">
           <div class="exp-edu-header">
-            <h3 class="exp-edu-title">Teaching Assistant</h3>
-            <span class="exp-edu-date">Fall '19, Fall '21</span>
+            <h3 class="exp-edu-title">Software Engineer</h3>
+            <span class="exp-edu-date">Jun 2022 - Oct 2023</span>
           </div>
-          <p class="exp-edu-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a></p>
-          <p class="exp-edu-desc">TA for Programming Fundamentals & Feedback Control. Created assignment manuals, delivered sessions, and instructed students in labs.</p>
+          <p class="exp-edu-org"><a href="https://10pearls.com/" target="_blank">10Pearls</a>, Karachi, Pakistan</p>
+          <p class="exp-edu-desc">Optimized SQL migrations reducing execution from hours to minutes. Resolved AWS gateway timeouts, developed REST APIs in Flask, and extended Odoo CRM features. Twice recognized with Developer Incentive Award.</p>
+        </div>
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">Machine Learning Engineer</h3>
+            <span class="exp-edu-date">Jun 2021 - Feb 2022</span>
+          </div>
+          <p class="exp-edu-org"><a href="#">Sofcom</a>, Karachi, Pakistan</p>
+          <p class="exp-edu-desc">Built predictive models for PSX stock prices using Python, pandas, and scikit-learn. Conducted data preprocessing, feature engineering, and model evaluation for production deployment.</p>
         </div>
       </div>
     </div>
@@ -128,38 +118,38 @@ title: Home
       <div class="exp-edu-list">
         <div class="exp-edu-card">
           <div class="exp-edu-header">
-            <h3 class="exp-edu-title">MSc Intelligent Field Robotic Systems</h3>
-            <span class="exp-edu-date">2022 - 2024</span>
+            <h3 class="exp-edu-title">MSc Computer Science</h3>
+            <span class="exp-edu-date">Oct 2023 - Present</span>
           </div>
-          <p class="exp-edu-org"><a href="https://ifrosmaster.org/" target="_blank">Erasmus Mundus Joint Master</a></p>
-          <p class="exp-edu-desc">Universitat de Girona, University of Zagreb, Eötvös Loránd University. Specialization in aerial vehicles and multi-robot systems. Thesis grade: 9.3/10.</p>
+          <p class="exp-edu-org"><a href="https://www.uni-saarland.de/" target="_blank">Saarland University</a>, Germany</p>
+          <p class="exp-edu-desc">Focus on software systems and distributed computing. Currently working on Master's thesis at Infineon Technologies.</p>
         </div>
         <div class="exp-edu-card">
           <div class="exp-edu-header">
-            <h3 class="exp-edu-title">BSc Electrical Engineering</h3>
+            <h3 class="exp-edu-title">BSc Computer Science</h3>
             <span class="exp-edu-date">2018 - 2022</span>
           </div>
-          <p class="exp-edu-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a>, Pakistan</p>
-          <p class="exp-edu-desc">Focus on robotics and computer vision. GPA: 3.86/4.00. Dean's Medal for highest academic achievement. Best Undergraduate Thesis Award.</p>
+          <p class="exp-edu-org"><a href="https://iba.edu.pk/" target="_blank">Institute of Business Administration (IBA)</a>, Pakistan</p>
+          <p class="exp-edu-desc">Dean's List honoree. Recipient of SEEF Scholarship. Strong foundation in software engineering, databases, and algorithms.</p>
         </div>
       </div>
     </div>
 
-    <!-- Research Interests -->
+    <!-- Technical Focus -->
     <div class="content-section">
-      <h2 class="section-title">Research Interests</h2>
+      <h2 class="section-title">Technical Focus</h2>
       <div class="interests-grid">
         <div class="interest-card">
-          <h3 class="interest-title">Autonomous Systems</h3>
-          <p class="interest-desc">Autonomous exploration, disaster robotics, and GPS-denied navigation for UAVs.</p>
+          <h3 class="interest-title">Backend Engineering</h3>
+          <p class="interest-desc">Python, Ruby, Go, Elixir, Flask. Building reliable APIs and scalable backend services.</p>
         </div>
         <div class="interest-card">
-          <h3 class="interest-title">Multi-Robot Systems</h3>
-          <p class="interest-desc">Decentralized control, connectivity maintenance, and swarm coordination for UAV networks.</p>
+          <h3 class="interest-title">Cloud & DevOps</h3>
+          <p class="interest-desc">AWS, Docker, Concourse CI, microservices architecture, and infrastructure automation.</p>
         </div>
         <div class="interest-card">
-          <h3 class="interest-title">Computer Vision</h3>
-          <p class="interest-desc">Human detection and localization, SLAM, and perception for robotic systems.</p>
+          <h3 class="interest-title">Data Systems</h3>
+          <p class="interest-desc">PostgreSQL, SQL optimization, data migrations, and database performance tuning.</p>
         </div>
       </div>
     </div>
